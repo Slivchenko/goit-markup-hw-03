@@ -311,22 +311,33 @@ font-size: 16px;
    font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
+  margin-bottom: 32px;
   
  }
 .filters-section {
    margin-top: 96px;
    display: flex;
    
-   
 }
 
+.first-item{
+   display: flex;
+   margin-bottom: 48px;
+   gap: 24px;
+}
 
+.second-item
+{
+display: flex;
+   margin-bottom: 48px;
+   gap: 24px;
+}
 .filters{
    display: flex;
    align-items: center;
    gap: 24px;
-   margin-left: 0 auto;
-      margin-right: 0 auto;
+   margin-right: auto;
+      margin-left: auto;
 
 }
 .list-portfolio{
