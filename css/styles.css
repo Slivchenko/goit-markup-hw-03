@@ -53,7 +53,7 @@ img {
    color: #2E2F42;
 }
 .container{
-   width: 1440px;
+   width:1158px;
    padding-left: 15px;
    padding-right: 15;
    margin-left: auto;
@@ -64,6 +64,9 @@ img {
 .header-container {
    display: flex;
    align-items: center;
+   flex-grow: 1;
+   
+   
 }
 .page-header {
    background: #E7E9FC;
@@ -79,7 +82,9 @@ img {
    line-height: 1.3;
    letter-spacing: 0.03em;
    text-decoration: none;
-   text-transform: uppercase;}
+   text-transform: uppercase;
+margin-left: 156px;}
+   
 
  .logo-footer
  {color: #F4F4FD;
@@ -89,6 +94,7 @@ img {
    line-height: 1.3;
    letter-spacing: 0.03em;
    text-transform: uppercase;
+   margin-left: 156px;
 }
 
 
@@ -99,7 +105,10 @@ img {
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
-    display: flex;
+    margin-left: 76px;
+    
+   
+   
 
  }
 
@@ -119,6 +128,7 @@ img {
    font-size: 16px;
    line-height: 1.5;
    text-decoration: none;
+   margin-left: 40px;
 
  }
  .site-nav :hover,
@@ -140,6 +150,8 @@ img {
    line-height: 1.5;
    text-decoration: none;
    display: flex;
+   align-items: center;
+   margin-left: 332px;
  }
  .hero {
    background: #2E2F42;
@@ -159,13 +171,17 @@ img {
    margin-top: 120px;
    width: 1128px;
    margin-bottom: 120px;
+   
   }
 .section-title-none
 { visibility: hidden;
    pointer-events: none;
    position: absolute;
 }
-
+ .container-title{
+   margin-left: 156px;
+ }
+ 
 .title-none-portfolio {
    visibility: hidden;
       pointer-events: none;
@@ -200,6 +216,8 @@ font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
    margin-top: 16px;
+   width: 264px;
+   margin-left: 156px;
  }
 
  .accent
@@ -217,9 +235,8 @@ font-size: 16px;
     width: 1128px;
     display: flex;
     gap: 24px;
-    margin-left: 156px;
-    margin-right: 156px;
-
+    margin: 0 auto;
+ 
  }
  .feature-list-title  {
     color: var(--title-text-color);
@@ -275,6 +292,8 @@ font-size: 16px;
    border: 1px solid #E7E9FC;
     border-radius: 4px;
     padding: 12px 24px 12px 24px;
+    min-width: 78px;
+    align-items: center;
  }
  
  .section-title-portfolio
@@ -292,12 +311,31 @@ font-size: 16px;
    font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
-
   
  }
 .filters-section {
    margin-top: 96px;
    display: flex;
+   
+   
+}
+
+
+.filters{
+   display: flex;
+   align-items: center;
+   gap: 24px;
+   margin-left: 0 auto;
+      margin-right: 0 auto;
+
+}
+.list-portfolio{
+   display: flex;
+   margin-top: 72px;
+   flex-wrap: wrap;
+   gap: 24px;
+   margin-bottom: 120px;
+
 }
 .potfolio-img{
   margin-top: 72px;
@@ -317,6 +355,7 @@ font-size: 16px;
 background-color: #2E2F42;
    padding-top: 100px;
    padding-bottom: 100px;
+
    
 }
    .work-img {
