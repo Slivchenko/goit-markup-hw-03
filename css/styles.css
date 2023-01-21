@@ -4,7 +4,7 @@
     --title-text-color: #434455;
     --accent-color: #4D5AE5;
     --button-color: #FFFFFF;
-    --primary-bg-color: #E5E5E5;
+    --primary-bg-color: #FFFFFF;
 }
 
 body {
@@ -103,6 +103,7 @@ img {
     line-height: 1.5;
     text-decoration: none;
     margin-left: 76px;
+    gap: 40px;
     
    
    
@@ -148,8 +149,11 @@ img {
    text-decoration: none;
    display: flex;
    align-items: center;
-   margin-left: 332px;
+   margin-left: auto;
+   gap: 40px;
  }
+
+ 
  .hero {
    background: #2E2F42;
    padding-top: 188px;
@@ -164,7 +168,7 @@ img {
   margin-bottom: 48px;
  }
   .section{
-   background: #E5E5E5;
+   background: #FFFFFF;
    padding-top: 120px;
    
   }
@@ -174,7 +178,7 @@ img {
    position: absolute;
 }
  .container-title{
-  
+   color: #FFFFFF;
    
  }
  
@@ -187,11 +191,15 @@ img {
     color: var(--primary-text-color);
     font-size: 36px;
     line-height: 1.1;
-
     text-align: center;
+    margin-bottom: 72px;
  }
+  .text-team-title{
+ padding-top: 32px;
+ padding-bottom: 32px;
+  }
  
- .text {
+  .text {
    font-size: 16px;
    line-height: 1.5;
    margin-top: 8px;
@@ -354,6 +362,8 @@ display: flex;
 .work-list{
    padding-top: 120px;
    padding-bottom: 120px;
+   background-color: #FFFFFF;
+  
    
 }
 .footer {
